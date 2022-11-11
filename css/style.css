@@ -16,16 +16,16 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: #767676;
-  background: rgba(232, 232, 232, 0.6);
+  background: #2b2b2b;
   /* START white border*/
-  border-left: 20px solid #fff;
-  border-right: 20px solid #fff;
+  border-left: 20px solid #2b2b2b;
+  border-right: 20px solid #2b2b2b;
   /* END white border*/
 }
 body:before, body:after {
   content: "";
   position: fixed;
-  background: #fff;
+  background: #2b2b2b;
   left: 0;
   right: 0;
   height: 20px;
@@ -93,7 +93,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: rgb(134, 132, 132);
   font-family: "Playfair Display", serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -607,7 +607,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
   position: relative;
   padding-left: 40px;
-  color: #000;
+  color: rgb(134, 132, 132);
 }
 .contact-info li i {
   position: absolute;
